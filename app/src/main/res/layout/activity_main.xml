@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.github.xiaohu409.htechart.widget.HtEChartView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ht_echart_id1"/>
+
+            <com.github.xiaohu409.htechart.widget.HtEChartView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ht_echart_id2"/>
+
+            <com.github.xiaohu409.htechart.widget.HtEChartView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ht_echart_id3"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
