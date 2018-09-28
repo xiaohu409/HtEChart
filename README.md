@@ -1,7 +1,7 @@
 # HtEChart
 ## 概述
 这是一个Android Library 实现对EChart的封装
-关于[EChart](http://echarts.baidu.com)
+关于[EChart](http://echarts.baidu.com/feature.html)
 
 效果图如下：
 
