@@ -1,4 +1,6 @@
 # HtEChart
+[![](https://jitpack.io/v/xiaohu409/HtEChart.svg)](https://jitpack.io/#xiaohu409/HtEChart)
+
 ## 概述
 这是一个Android Library 实现对EChart的封装
 关于[EChart](http://echarts.baidu.com/feature.html)
@@ -14,6 +16,20 @@
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':htechart')
+}
+```
+或
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```groovy
+dependencies {
+    implementation 'com.github.xiaohu409:HtEChart:1.0'
 }
 ```
 2.在xml布局文件里使用HtEChartView控件
