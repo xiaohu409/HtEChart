@@ -1,6 +1,6 @@
 # HtEChart
 [![](https://jitpack.io/v/xiaohu409/HtEChart.svg)](https://jitpack.io/#xiaohu409/HtEChart)
-
+[ ![Download](https://api.bintray.com/packages/hutao409/maven/HtEChart/images/download.svg) ](https://bintray.com/hutao409/maven/HtEChart/_latestVersion)
 ## 概述
 这是一个Android Library 实现对EChart的封装
 关于[EChart](http://echarts.baidu.com/feature.html)
